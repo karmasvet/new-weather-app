@@ -29,7 +29,39 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello</h1>
+    <h1 id="city"></h1>
+            <ul>
+              <li>Last updated: <span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong id="temperature"></strong
+                  ><span class="units"> °C</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <small>
+          <a
+            href="https://github.com/karmasvet/new-weather-app"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Svitlana Karmadonova
+        </small>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
