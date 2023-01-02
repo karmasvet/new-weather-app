@@ -95,3 +95,24 @@ li:first-letter {
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+
+.btn-search {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  background: rgb(96, 9, 240);
+  background: linear-gradient(
+    0deg,
+    rgba(96, 9, 240, 1) 0%,
+    rgba(129, 5, 240, 1) 100%
+  );
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.btn-search:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
