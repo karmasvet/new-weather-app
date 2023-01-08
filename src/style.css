@@ -1,9 +1,5 @@
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(127, 130, 251, 1) 0%,
-    rgba(250, 106, 240, 1) 100%
-  );
+  background: #e6caff;
 }
 
 .container {
@@ -71,7 +67,11 @@ body {
   margin-top: 30px;
   padding-bottom: 30px;
   padding-top: 10px;
-  background-image: linear-gradient(rgba(0, 8, 51, 0.2), rgba(0, 8, 51, 0.227));
+  background: linear-gradient(
+    110.6deg,
+    rgb(184, 142, 252) 2.2%,
+    rgb(104, 119, 244) 100.2%
+  );
   border-radius: 10px;
 }
 
@@ -80,7 +80,11 @@ body {
   font-weight: 400;
   margin-top: 10px;
   color: white;
-  background-image: linear-gradient(rgba(0, 8, 51, 0.2), rgba(0, 8, 51, 0.227));
+  background: linear-gradient(
+    110.6deg,
+    rgb(184, 142, 252) 2.2%,
+    rgb(104, 119, 244) 100.2%
+  );
   padding-bottom: 30px;
   padding-top: 30px;
   border-radius: 15px;
