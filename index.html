@@ -41,37 +41,69 @@
               </div>
             </div>
           </form>
-          <div class="overview">
-            <h1 id="city"></h1>
-            <ul>
-              <li>Last updated: <span id="date"></span></li>
-              <li id="description"></li>
-            </ul>
+          
+          <div class="weather-content">
+            <div class="last-update-statement">
+       Last Updated:
+       <span id="date">Thu 22:57</span>
+     </div>
+
+ <h1 class="location">
+       <span id="current-city">Alicante</span>,
+       <span id="current-country">Spain</span>
+     </h1>
+     <div id="current-description">sunny</div>
+
+     <div class="temp-content">
+       <span id="current-temp">23</span>
+       <span class="temp-unit">°C</span>
+         <img
+         src=""
+         alt="sunny emoji"
+         class="weather-emoji"
+         id="weather-emoji"
+                  />
+     </div>
+
+       <div class="row justify-content-evenly more-details">
+          <div class="col-3 more-details-boxes">
+            Humidity
+            <div class="inside" id="humidity-content">80%</div>
           </div>
-          <div class="row">
-            <div class="col-6">
-              <div class="clearfix weather-temperature">
-                <img src="" alt="Clear" id="icon" class="float-left" />
-                <div class="float-left">
-                  <strong id="temperature"></strong
-                  ><span class="units"> °C</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> m/h</li>
-              </ul>
-            </div>
+          <div class="col-3 more-details-boxes">
+            Wind
+            <div class="inside" id="wind-content">5 m/s</div>
           </div>
-          <div class="weather-forecast" id="forecast"></div>
+          <div class="col-3 more-details-boxes">
+            Feels Like
+            <div class="inside" id="feels-like-temp">23°C</div>
+          </div>
         </div>
-<div class="github-link">
-    <a href="https://github.com/karmasvet/weather-app.git"_blank">
-    Open-source code</a> by Svitlana Karmadonova
+      </div>
+
+      <div class="weather-forecast" id="forecast">
+        <div class="row">
+          <div class="col-2 forecast">
+            <div class="weather-forecast-day">Thu</div>
+            <div class="forecast-image">
+              <img src="" alt="semi clouded" class="expected-temp-emoji" />
+              <div class="expected-temp">
+              <span class="forecast-max-temp">18°</span>
+              <span class="forecast-min-temp">12°</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+<small>
+ <a
+  href="https://github.com/karmasvet/new-weather-app"
+  target="_blank"
+  >Open-source code
+ </a>
+ by Svitlana Karmadonova
+      </small>
     </div>
-        </script>
-    <script src="src/app.js"></script>
-</body>
+</head>
+<body></body>
 </html>
