@@ -71,6 +71,7 @@ function displayForecast(response) {
           }@2x.png"
           alt=""
           width="42"
+          id="weather-emoji"
         />
         <div class="weather-forecast-temperatures">
           <span class="weather-forecast-temperature-max"> ${Math.round(
@@ -102,8 +103,8 @@ function displayAppContent(response) {
   let descriptionElement = document.querySelector("#current-description");
   let humidityElement = document.querySelector("#humidity-content");
   let windElement = document.querySelector("#wind-content");
-  let dateElement = document.querySelector("#current-time");
-  let iconElement = document.querySelector("#icon");
+  let dateElement = document.querySelector("#date");
+  let iconElement = document.querySelector("#weather-emoji");
   let feelsLikeElement = document.querySelector("#feels-like-temp");
 
   cityElement.innerHTML = response.data.name;
@@ -125,7 +126,7 @@ function displayAppContent(response) {
 function search(city) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-  axios.get(apiUrl).then(displayTemperature);
+  axios.get(apiUrl).then(displayAppContent);
 }
 
 function handleSubmit(event) {

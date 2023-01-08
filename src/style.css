@@ -6,14 +6,6 @@ body {
   );
 }
 
-body {
-  background: linear-gradient(
-    90deg,
-    rgba(127, 130, 251, 1) 0%,
-    rgba(250, 106, 240, 1) 100%
-  );
-}
-
 .container {
   width: 580px;
   margin: 30px auto;
@@ -77,10 +69,10 @@ body {
 
 .weather-content {
   margin-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-top: 10px;
   background-image: linear-gradient(rgba(0, 8, 51, 0.2), rgba(0, 8, 51, 0.227));
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .weather-forecast {
